@@ -1,20 +1,18 @@
 import React,{useState} from 'react';
+import {Link} from 'react-router-dom';
+
 
 
 const Navbar = () => {
   return (
     <>
-    <nav className='navbar'>
-     <div className='navbar-container'>
-        <Link to="/" className='navbar-logo'>
-            Traveller 
-        </Link>
-
-     </div>
-
-
-    </nav>
-
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo">
+            Traveller <i class="fa-solid fa-user"></i>
+          </Link>
+        </div>
+      </nav>
     </>
   );
 }
